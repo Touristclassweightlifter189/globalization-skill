@@ -34,8 +34,9 @@ Start with `SKILL.md` only, then load the minimum set of references needed.
 
 Always load:
 
-1. `references/core/framework-overview.md`
-2. `references/core/policy-taxonomy.md`
+1. `references/getting-started.md`
+2. `references/core/framework-overview.md`
+3. `references/core/policy-taxonomy.md`
 
 Load next based on task shape:
 

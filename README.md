@@ -9,6 +9,7 @@ This repository defines globalization as an engineering governance problem, not 
 The package is structured like a small library:
 
 - `SKILL.md` contains activation rules, scope boundaries, and the load order.
+- `references/getting-started.md` gives the shortest path for first-time use.
 - `references/core/` contains stable cross-stack rules.
 - `references/layers/` contains the 12-layer framework.
 - `references/adapters/` maps the core rules into named stacks.
@@ -128,6 +129,7 @@ Use the globalization skill to audit this Supabase schema for tenant isolation, 
 SKILL.md
 agents/
 references/
+  getting-started.md
   core/
   layers/
   adapters/
