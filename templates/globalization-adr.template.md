@@ -1,3 +1,23 @@
 # Globalization ADR Template
 
-Placeholder template for globalization architecture decisions.
+## Title
+
+## Context
+
+- Problem:
+- Layers in scope:
+- Markets in scope:
+- Stacks in scope:
+
+## Decision
+
+- Selected approach:
+- Policy taxonomy per major rule:
+- Capability assumptions:
+
+## Consequences
+
+- Benefits:
+- Risks:
+- Rollback path:
+- Review owner:
