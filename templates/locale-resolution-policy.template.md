@@ -27,3 +27,25 @@ Define how the product resolves locale and direction for a given surface.
 - Locale source field:
 - Fallback behavior:
 - Unsupported locale behavior:
+
+## Example
+
+- Surface: dashboard web app
+- Audience: authenticated store staff
+- Supported locales: `en`, `zh-Hant`
+- Default locale: `en`
+- Direction policy: derive from resolved locale
+
+Resolution order:
+
+1. explicit in-app user selection
+2. persisted profile preference
+3. tenant default
+4. `Accept-Language`
+5. product default `en`
+
+Notes:
+
+- Locale source field: `locale_source`
+- Fallback behavior: soft fallback to `en` for unsupported locales
+- Unsupported locale behavior: preserve canonical data and log unsupported requests

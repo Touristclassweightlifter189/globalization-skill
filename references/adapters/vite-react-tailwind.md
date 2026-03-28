@@ -17,6 +17,12 @@ Maps the framework into a Vite plus React plus Tailwind frontend.
 
 Examples in this adapter use `react-intl` because it aligns well with stable message keys, ICU interpolation, and extraction workflows. The framework still works with other libraries if they preserve the same invariants.
 
+## Library Trade-Off
+
+- Prefer `react-intl` when ICU message formatting, extraction discipline, and stable message catalogs are the main priority.
+- Prefer `react-i18next` when plugin ecosystem, namespace ergonomics, and broader ecosystem familiarity matter more.
+- Choose one at team-policy level and document it. The framework does not require one universal winner.
+
 ## Locale Bundle Example
 
 ```ts
