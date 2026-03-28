@@ -153,6 +153,13 @@ Use this skill when planning, reviewing, or implementing:
 
 This repository now contains a full first version of the framework, adapters, checklists, and templates. It is intended to be extended through adapters and overlays rather than by turning the core into a monolith.
 
+Practical completion estimate:
+
+- `80%` complete as a reusable globalization framework
+- `50%` to `60%` complete as a business-ready operating standard until product-specific overlays are added
+
+The highest-value next step is not more generic expansion. It is adding business-model overlays that bind the framework to a real product, tenant model, data flow, market scope, and billing mode.
+
 ## Notes
 
 - GitHub Topics are repository settings and are not stored in this repository.
