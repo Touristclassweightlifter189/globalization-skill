@@ -42,6 +42,15 @@ The skill separates four classes of rules:
 
 This separation prevents stack-specific habits or local policy choices from being presented as universal globalization doctrine.
 
+## What This Skill Is Not
+
+- It is not only a translation or string-management skill.
+- It is not a substitute for legal advice.
+- It is not a country-by-country law database.
+- It is not a promise that every stack, market, or provider combination is supported.
+
+It is a governance and implementation framework that helps teams design global-ready systems and make capability gaps explicit.
+
 ## Installation
 
 ### Codex
