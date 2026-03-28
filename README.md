@@ -60,6 +60,73 @@ Install into:
 ~/.claude/skills/globalization
 ```
 
+## Quick Start
+
+### Codex
+
+```bash
+git clone https://github.com/kcbehindbrand/globalization-skill.git ~/.agents/skills/globalization
+```
+
+### Claude Code
+
+```bash
+git clone https://github.com/kcbehindbrand/globalization-skill.git ~/.claude/skills/globalization
+```
+
+If the target folder already exists, update it with:
+
+```bash
+cd ~/.agents/skills/globalization && git pull
+```
+
+or:
+
+```bash
+cd ~/.claude/skills/globalization && git pull
+```
+
+## How To Use
+
+Ask the assistant to apply the skill when a task touches:
+
+- multilingual UI or localization architecture
+- locale and time-zone resolution
+- market or jurisdiction-aware product flows
+- multi-tenant isolation and governance
+- billing, invoicing, payment capability, or seller-role logic
+- privacy, consent, residency, or rights workflows
+- region-aware AI integration or provider capability decisions
+- globalization launch review and observability
+
+Typical prompts:
+
+```text
+Use the globalization skill to review this billing flow for market expansion.
+```
+
+```text
+Apply the globalization framework before implementing this multilingual dashboard.
+```
+
+```text
+Use the globalization skill to audit this Supabase schema for tenant isolation, locale fields, and privacy risks.
+```
+
+## Repository Structure
+
+```text
+SKILL.md
+agents/
+references/
+  core/
+  layers/
+  adapters/
+  checklists/
+templates/
+overlays/
+```
+
 ## Intended Use
 
 Use this skill when planning, reviewing, or implementing:
@@ -76,3 +143,9 @@ Use this skill when planning, reviewing, or implementing:
 ## Status
 
 This repository now contains a full first version of the framework, adapters, checklists, and templates. It is intended to be extended through adapters and overlays rather than by turning the core into a monolith.
+
+## Notes
+
+- GitHub Topics are repository settings and are not stored in this repository.
+- Team-specific rules should go into `overlays/` rather than the core framework.
+- Stack-specific implementation details should go into `references/adapters/`.
