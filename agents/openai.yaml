@@ -1,0 +1,4 @@
+version: 1
+display_name: Globalization
+short_description: Global-ready architecture and governance skill
+default_prompt: Apply the globalization framework to this task.
